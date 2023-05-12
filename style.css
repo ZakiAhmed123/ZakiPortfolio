@@ -11,17 +11,17 @@ margin:0px !important;
   height:100%;
   display:none;
 }
-
+/* 
 .mobile {
   border: 0px !important;
   width:100%;
   overflow-y:auto;
   height:100%;
   display:block;
-}
+} */
 
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   .desktop {display:block}
   .mobile { display:none }
-}
+} */
