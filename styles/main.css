@@ -1,0 +1,449 @@
+@font-face {
+  font-family: "Studio Fiexen Light";
+  src: url('../assets/fonts/StudioFeixenSansTRIAL-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Studio Fiexen SemiBold";
+  src: url('../assets/fonts/StudioFeixenSansTRIAL-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Tiempos Headline Regular";
+  src: url('../assets/fonts/TestTiemposHeadline-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Tiempos Headline Medium";
+  src: url('../assets/fonts/TestTiemposHeadline-Medium.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family: "Tiempos Headline Semibold";
+  src: url('../assets/fonts/TestTiemposHeadline-Semibold.otf') format('opentype');
+}
+
+/*COLOR + TYPOGRAPHY*/
+
+:root {
+  --black: #333333;
+  --white: #ffffff;
+  --blue: #74B9FF;
+  --orange: #E2764F;
+  --purple: #A29BFE;
+  --green: #55EFC4;
+  --yellow: #FFEAA7;
+  --peach: #FAB1A0;
+  --red: #F44D68;
+  --gold: #CDA47E;
+  --beige: #F1F1EF;
+  --gray: #576574;
+}
+
+h1 {
+  color: var(--black);
+  font-family: Test Tiempos Headline;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin:0px;
+}
+
+h2 {
+  color: var(--black);
+  font-family: Test Tiempos Headline;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin:0px;
+
+}
+
+h3 {
+  color: var(--black);
+  font-family: "Studio Fiexen SemiBold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin:0px;
+
+}
+
+b {
+  font-family: "Studio Fiexen SemiBold";
+  font-weight: 600;
+}
+
+h4 {
+color: var(--gray, #576574);
+font-family: Studio Feixen Sans TRIAL;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+margin:0px;
+
+}
+
+h5 {
+    color: var(--black);
+    font-family: "Studio Fiexen SemiBold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin:0px;
+
+}
+
+h6 {
+    font-family: "Studio Fiexen SemiBold";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin:0px;
+}
+
+.h7 {
+  color: var(--black);
+  font-family: Test Tiempos Headline;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin:0px;
+
+}
+
+a {
+  color: var(--black) !important;
+}
+
+a:hover {
+/*  font-family: "Studio Fiexen SemiBold";*/
+/*  font-weight: 600;*/
+  text-decoration: underline;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+}
+
+/*NAV*/
+
+nav {
+  display: flex;
+  padding: 24px !important;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed !important;
+  top:0px !important;
+  left:0px !important;
+  background-color: var(--white);
+  width:100%;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-item {
+display: flex;
+align-items: center;
+
+}
+
+.nav-item > .bodyText {
+  text-align:center;
+  width:100%;
+  font-size:28px !important;
+}
+
+
+
+.resumeButton {
+  display: flex;
+  padding: 20px 32.5px !important;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--black);
+  color: var(--white, #FFF) !important;
+  font-family: Studio Feixen Sans TRIAL;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-decoration: none !important;
+  width: 100%;
+}
+
+.resumeButton:hover {
+  background-color: var(--gray);
+  font-family: Studio Feixen Sans TRIAL;
+  font-style: normal;
+  font-weight: 400 !important;
+}
+
+.navbar-brand {
+  padding-left:0px;
+}
+
+.activePage {
+  font-family: "Studio Fiexen SemiBold" !important;
+  font-weight: 600 !important;
+  text-decoration: underline;
+}
+
+
+
+/*CONTENT START*/
+
+body {
+  padding-top:100px;
+}
+
+.section {
+  color: var(--black);
+  font-family: "Studio Fiexen Light";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.bodyText {
+  color: var(--black) ;
+  font-family: "Studio Fiexen Light";
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 40px; 
+  letter-spacing: 0.5px;
+}
+
+.content {
+  padding:24px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+
+}
+
+.content2 {
+    padding:0px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.introduction {
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  color: var(--black);
+  font-family: "Tiempos Headline Medium";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  }
+
+#outlinedText {
+    color:white !important;
+    text-shadow: -1px 1px 0 var(--black),
+          1px 1px 0 var(--black),
+         1px -1px 0 var(--black),
+        -1px -1px 0 var(--black)
+}
+
+.caseStudiesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  width:100%;
+  max-width:1728px;
+}
+
+.previewContainer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.caseStudyDescription{
+display: flex;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+row-gap: 24px;
+align-self: stretch;
+flex-wrap: wrap;
+}
+
+.caseStudyDescription > .bodyText {
+  display: flex;
+align-items: center;
+flex: 1 0 0;
+}
+
+#philosophies {
+  width:100%;
+  max-width:540px;
+  height:auto;
+}
+
+.imgSizer {
+  width:100%;
+  max-width:100%;
+  height:auto;
+  flex-shrink: 0;
+}
+
+.imgSizer2 {
+  width:75%;
+  max-width:100%;
+  height:auto;
+  flex-shrink: 0;
+}
+
+  .outer {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 44px;
+    padding:48px 24px;
+    justify-content: center;
+  }
+
+/*.imgSizer:hover {
+  outline: 4px solid var(--gold, #CDA47E);
+}*/
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color: var(--black);
+  height: 1px;
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  width: 100%;
+  padding: 48px 24px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background: var(--beige);
+  gap: 48px;
+
+}
+
+.footerHalf {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.footerResumeContainer {
+  display: flex;
+  justify-content: center;
+  gap:12px;
+}
+
+.summaryContainer {
+  width:100%;
+  background: var(--beige);
+}
+.summary {
+  display: flex;
+  width: 100%;
+  padding: 48px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 44px;
+  }
+
+
+
+
+@media (min-width: 992px) {
+
+    .summary {
+     padding: 104px 96px;
+  }
+    .outer {
+   padding: 104px 96px;
+
+  }
+
+  .nav-item > .bodyText {
+    font-size:20px !important;
+  }
+
+  .footer {
+    padding: 104px 96px;
+  }
+
+  body {
+  padding-top:112px;
+  }
+
+  .content {
+    padding:104px 96px;
+  }
+
+  .content2 {
+    padding:0px;
+  }
+    .navbar-nav {
+    gap:12px;
+  }
+
+  nav {
+    padding: 24px 96px !important;
+    z-index: 9999;
+  }
+
+  .navbar-brand {
+  }
+
+  .introduction {
+    padding:0px 160px;
+  }
+
+  .resumeButton {
+    width:auto;
+  }
+}
+
+

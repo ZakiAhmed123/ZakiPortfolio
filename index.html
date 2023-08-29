@@ -1,11 +1,196 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Zaki Ahmed's Portfolio :D</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <iframe class="desktop" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FviaJKxAHRHUCgvXeI1tq86%2FZaki_Ahmed_Portfolio%3Fpage-id%3D911%253A971%26node-id%3D911%253A1429%26viewport%3D-275%252C667%252C1%26scaling%3Dscale-down-width%26hide-ui%3D1" allowfullscreen></iframe>
-  </body>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/7753bd8b73.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./animations.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+<link rel="manifest" href=".assets/images/site.webmanifest">
+
+  <title>Zaki Ahmed</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg ">
+  <a class="navbar-brand" href="./index.html"><h1>Zaki Ahmed</h1></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link bodyText" href="./Philosophies.html">Philosophies </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link bodyText" href="./aboutMe.html">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link bodyText activePage" href="./index.html">UX Case Studies</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link bodyText" href="./designOps.html">Design Ops</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link resumeButton" href="#" >Resume</a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <div class="content">
+    <!-- INTRO -->
+    <div class="introduction">
+        
+        Hi, I’m Zaki. I’m a product design lead based in Houston, Texas. Welcome to my portfolio.
+        
+    </div>
+
+    <!-- CASE STUDIES -->
+    <div class="caseStudiesContainer">
+      <h1>UX Case Studies</h1>
+      <div class="previewContainer">
+        <a href="./optym.html">
+          <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/portfolio/optym_aACWh3D2jf.png?updatedAt=1693349208124">
+        </a>
+        
+        <div class="caseStudyDescription">
+        <h2>Optym Trucking Management System (TMS)</h2>
+
+          <a href="./optym.html" class="resumeButton">
+            View Case Study
+          </a>
+        </div>
+          <div class="bodyText">B2B SaaS product designed to allow trucking planners to make quick decisions about scheduling loads and drivers that maximize profit through optimization + AI.
+          </div>
+      </div>
+
+            <div class="previewContainer">
+              <a href="./orgBuilder.html">
+                <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/portfolio/mc3_4b6izQ-yH.png?updatedAt=1693349289687">
+              </a>
+        <div class="caseStudyDescription">
+        <h2>Business Org Builder</h2>
+
+          <a href="./orgBuilder.html"class="resumeButton">
+            View Case Study
+          </a>
+        </div>
+          <div class="bodyText">Management consulting tool that allows freedom to build and restructure business org's.
+          </div>
+      </div>
+          <hr>
+
+      <h1>More Projects</h1>
+
+      <div class="previewContainer">
+        <a href="./beverage.html">
+          <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/portfolio/beverageBanner_Eo2I8ndYE.png?updatedAt=1693349351581">
+        </a>
+
+        <div class="caseStudyDescription">
+        <h2>Beverage Helper App</h2>
+
+          <a href="./beverage.html" class="resumeButton">
+            View Summary
+          </a>
+        </div>
+          <div class="bodyText">A mobile and desktop application that allows the business unit of a large beverage company to communicate documents, announcements and seasonal news to front line workers while also organizing their document library with versioning and robust search options.
+          </div>
+      </div>
+
+      <div class="previewContainer">
+        <a href="./mda.html">
+          <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/portfolio/mdaBanner_c6t1ncWqn.png?updatedAt=1693349351561">
+        </a>
+
+        <div class="caseStudyDescription">
+        <h2>Hospital Mobile Health Screening</h2>
+
+          <a href="./mda.html" class="resumeButton">
+            View Summary
+          </a>
+        </div>
+          <div class="bodyText">Mobile healthcare applications to quickly assess a patients health for specific diseases, designed for MDAnderson Cancer Center.
+          </div>
+      </div>
+
+      <div class="previewContainer">
+        <a href="./dashboard.html">
+          <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/portfolio/dashboardBanner_EFAQFUu0k.png?updatedAt=1693349360907">
+        </a>
+
+        <div class="caseStudyDescription">
+        <h2>Hospital Research Dashboard</h2>
+
+          <a href="./dashboard.html" class="resumeButton">
+            View Summary
+          </a>
+        </div>
+          <div class="bodyText">A multi-layered dashboard for a large hospital cancer center to allow department, division and hospital leadership to monitor and observe all research trials at a high level and be able to make decisions based on at a glance information.
+          </div>
+      </div>
+      
+    </div>
+  </div>
+<!-- footer -->
+    <div class="footer">
+    <div class="footerHalf">
+      <h2>Zaki Ahmed</h2>
+      <div class="bodyText">
+        zaki@zakiahmed.org
+      </div>
+      <div class="bodyText">
+        (832) 483-2131
+      </div>
+      <div class="footerResumeContainer bodyText">
+        <a href="https://www.linkedin.com/in/zakiahmed14" target=”_blank” >linkedin</a> •
+        <a href="./resume.html" >resume</a>
+      </div>
+      <div class="bodyText">
+        HTML/CSS/JavaScript developed by Me
+      </div>
+
+    </div>
+    <div class="footerHalf">
+      <h2>Projects</h2>
+      <a href="./optym.html" class="bodyText">
+        Trucking System Gantt
+      </a>
+      <a href="./orgBuilder.html" class="bodyText">
+        Business Org Builder
+      </a>
+       <a href="./beverage.html" class="bodyText">
+        Beverage Helper App
+      </a>
+       <a href="./mda.html" class="bodyText">
+        Hospital Screen Screening
+      </a>
+       <a href="./dashboard.html" class="bodyText">
+        Hospital Research Dashboard
+      </a>
+    </div>
+  </div>
+
+</body>
+
 </html>

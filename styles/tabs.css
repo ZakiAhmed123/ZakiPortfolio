@@ -1,0 +1,41 @@
+.ui-tabs-nav {
+    list-style-type: none;
+    padding:0px;
+    display: flex;
+    gap:12px;
+}
+
+.ui-tabs-tab:hover {
+    border-bottom: 4px solid rgba(205,164,126,0.3);
+
+}
+
+.ui-tabs-nav li {
+    padding-bottom:4px;
+}
+
+.ui-state-active {
+    border-bottom: 4px solid var(--gold);
+
+}
+
+.ui-tabs-nav li a {
+    text-decoration: none;
+}
+
+.tabContainer {
+    display: flex;
+    padding-top:44px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+}
+
+.dpr {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 44px;
+}
+

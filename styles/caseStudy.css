@@ -1,0 +1,134 @@
+/*image slider*/
+
+
+.swiper {
+  display: none;
+}
+
+.swiper-button-next, .swiper-button-prev {
+
+  color: var(--black) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--black) !important;
+
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin:0px 8px;
+}
+
+.swiper-pagination-bullet {
+  width:12px;
+  height:12px;
+
+}
+
+.swiper-scrollbar {
+  display:none;
+}
+
+#optymMobile {
+  display: block;
+}
+
+/*OVERVIEW*/
+.overview {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 44px;
+  padding:48px 24px;
+}
+
+.roleTools {
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  flex: 1 0 0;
+  }
+
+.tools {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+
+
+  .inverted {
+    background: var(--black);
+  }
+
+  .gold {
+    color:var(--gold);
+  }
+
+  .white {
+    color: white;
+  }
+
+
+  .cardDecision {
+    display: flex;
+    align-items: flex-start;
+    gap: 56px;
+    align-self: stretch;
+    flex-wrap: wrap;
+  }
+
+  .cardDecision > .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    flex: 1 0 0;
+  }
+
+/*  .cardDecision > .right {
+    display: flex;
+  }*/
+/*media queries*/
+
+@media (min-width: 992px) {
+
+
+  .overview {
+      padding: 104px 96px;
+
+  }
+
+  .tools {
+    width:474px;
+  }
+
+  .roleTools {
+      flex-direction:row;
+
+  }
+
+  #optymMobile {
+  display: none;
+}
+
+  .swiper {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width:1728px;
+}
+
+}
