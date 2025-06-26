@@ -457,6 +457,10 @@ hr {
   .resumeButton {
     width:auto;
   }
+
+  .resumeButtonAdjustment {
+    max-width: 170px;
+  }
 }
 
 
