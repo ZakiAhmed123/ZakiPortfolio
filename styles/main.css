@@ -228,6 +228,7 @@ body {
   text-transform: uppercase;
 }
 
+
 .bodyText {
   color: var(--black) ;
   font-family: "Studio Fiexen Light";
@@ -238,6 +239,14 @@ body {
   letter-spacing: 0.5px;
 }
 
+.introContainer {
+  background: #F1F1EF;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 48px 24px;
+  align-items: center;
+}
+
 .content {
   padding:24px;
   display: flex;
@@ -245,7 +254,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 44px;
-
 }
 
 .content2 {
@@ -259,9 +267,8 @@ body {
 
 .introduction {
   display: flex;
-  padding: 0px;
+  padding: 48px 0px 0px 0px;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
   color: var(--black);
   font-family: "Tiempos Headline Medium";
@@ -271,6 +278,7 @@ body {
   line-height: normal;
   letter-spacing: 1.5px;
   }
+
 
 #outlinedText {
     color:white !important;
@@ -422,6 +430,14 @@ hr {
     padding:104px 96px;
   }
 
+  .introContainer {
+    padding:104px 96px;
+    flex-direction: row;
+    gap: 96px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
   .content2 {
     padding:0px;
   }
@@ -437,9 +453,6 @@ hr {
   .navbar-brand {
   }
 
-  .introduction {
-    padding:0px 160px;
-  }
 
   .resumeButton {
     width:auto;
