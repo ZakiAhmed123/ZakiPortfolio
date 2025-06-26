@@ -5,17 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/7753bd8b73.js" crossorigin="anonymous"></script>
   <script type="text/javascript" src="./animations.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./js/lightbox.js"></script>
 <link rel="stylesheet" href="./styles/main.css">
 <link rel="stylesheet" href="./styles/resume.css">
+<link href="./styles/lightbox.css" rel="stylesheet" />
 <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
@@ -61,7 +60,7 @@
     <div class="resumeHeader">
       <div class="d-flex flex-column" style="gap:8px;">
         <h1 class="m-0">Zaki Ahmed</h1>
-        <h3>Lead Product Designer</h3>
+        <h3>Principal Product Designer</h3>
         <h5>Houston, TX</h5>
       </div>
             <img src="./assets/images/headshot.png" style="height:120px;width:120px;">
@@ -81,34 +80,31 @@
     <div class="resumeContainer">
 
     <div class="h7">Work Experience</div>
-      <div class="resumeItemContainer">
-      <a href="https://optym.com/"> 
-        <h5>Product Experience Practice Lead at Neudesic an IBM Company 
+        <div class="resumeItemContainer">
+      <a href="https://neudesic.com/"> 
+        <h5>Principal Product Designer at Neudesic, an IBM Company
           <i class="fa-light fa-arrow-up-right"></i>
         </h5> 
       </a>
       <div class="resumeBody">
-        Houston, TX (Remote) | January 2024 — Current
+        Houston, TX | January 2024 — Current
       </div>
       <h6>Company Description:</h6>
       <div class="resumeBody">
-        Mid-sized technology consulting firm, focusing on modern AI solutions.
+        A global professional services firm specializing in helping businesses modernize and optimize operations using Microsoft technologies and AI solutions.
       </div>
       <h6>Responsibilities + Accomplishments</h6>
       <div class="resumeBody">
-        • AI & Intelligent UX: Product design lead for a GenAI agent solution for a major banking and investment firm, defining user experience principles for AI-powered assistants.
+        • AI & Intelligent UX: Led design for a GenAI agent solution, defining UX patterns for AI-driven workflows focused on trust, usability, and streamlined decision support.
         </br> </br>
-        • Enterprise Product Design: Led design for an enterprise level therapy management platform, overseeing two junior designers and a product manager, while developing an enterprise-level design system for consistency and scale.
+        • Enterprise Product Design: Led design for a therapy management platform, overseeing two junior designers and a product manager. Conducted a UX/UI audit to guide improvements and developed a scalable design system for consistency.
         </br> </br>
-        • Workshop Facilitation: Facilitated pre-sales workshops to align clients on product vision and core problems, including Design Thinking ideation and Microsoft Power Platform Security & Governance sessions.
+        • Leadership Experience: Managed a team of five UX designers, providing mentorship, conducting performance evaluations, defining best practices, overseeing workstreams, and guiding career development discussions.
         </br> </br>
-        • UX Strategy & Vision: Defined core UX offerings in a tiered menu style to support the sales teams and align. 
+        • UX Strategy & Enablement: Created core UX offerings, a national training program, and a centralized UX portfolio to equip teams with standardized tools and practices—driving alignment across sales, delivery, and pre-sales while supporting skill development and project success organization-wide.
         </br> </br>
-        • Talent Development & UX Enablement: Developed and launched a national training program and UX portfolio, aligning skill development with team and market needs while supporting pre-sales and project engagements across the organization.
-        </br> </br>
-        • UX Evangelism & Thought Leadership: Hosted regional lunch-and-learn sessions on UX in product teams, Power Apps UX for AI agents, and UX in Agentic AI.
-        </br> </br>
-        • Pre-Sales & Business Impact: Contributed over $1.2M in first-year revenue by supporting sales with SOWs, team planning, UX-led solutions, and design thinking workshops.
+        • Cross-functional Collaboration: Worked with product, engineering, and business stakeholders to define product vision, prioritize features, and align design with customer feedback and technical feasibility for multiple enterprise products.
+
       </div>
     </div>
     <div class="resumeItemContainer">
@@ -136,12 +132,12 @@
         </br> </br>
         • Led the discovery and product design of Load AI, an artificial intelligence product for automated load and driver matching to optimize profitability.
       </div>
-      <div class="previewImageRow">
+ <!--      <div class="previewImageRow">
         <img src="./assets/images/dashboardPreview.png" class="previewImg">
         <img src="./assets/images/ganttPreview.png" class="previewImg">
         <img src="./assets/images/popupPreview.png" class="previewImg">
 
-      </div>
+      </div> -->
     </div>
 
     <div class="resumeItemContainer">
@@ -190,12 +186,12 @@
         </br> </br>
         • Hosted quarterly regional townhalls in association with C-suite executives for the South Region.  
       </div>
-      <div class="previewImageRow">
+ <!--      <div class="previewImageRow">
         <img src="./assets/images/avanadePreview2.png" class="previewImg">
         <img src="./assets/images/avanadePreview3.png" class="previewImg">
         <img src="./assets/images/avanadePreview1.png" class="previewImg">
 
-      </div>
+      </div> -->
     </div>
 
     <div class="resumeItemContainer">
@@ -294,9 +290,19 @@
         Using the restaurants existing design and aesthetic of graffiti and neon lights I designed and developed a creative experience that pairs the in brick and mortar restaurants aesthetic with the digital one including signage, event banners and website.
       </div>
       <div class="previewImageRow">
-        <img src="./assets/images/smashvillePreview1.png" class="previewImg">
-        <img src="./assets/images/smashvillePreview2.png" class="previewImg">
-        <img src="./assets/images/smashvillePreview3.png" class="previewImg">
+<!-- 
+        <a href="./assets/images/smashvillePreview1.png" data-lightbox="smashville" data-title="burgers and sandwiches"><img class="previewImg" src="./assets/images/smashvillePreview1.png" alt="Smashville burgers and sandwiches"></a>
+        <a href="./assets/images/smashvillePreview2.png" data-lightbox="smashville" data-title="burgers and sandwiches"><img class="previewImg" src="./assets/images/smashvillePreview2.png" alt="Smashville burgers and sandwiches"></a>
+        <a href="./assets/images/smashvillePreview3.png" data-lightbox="smashville" data-title="burgers and sandwiches"><img class="previewImg" src="./assets/images/smashvillePreview3.png" alt="Smashville burgers and sandwiches"></a> -->
+
+
+<!--         <a class="previewImg" href="./assets/images/smashvillePreview3.png" data-lightbox="smashville" data-title="burgers and sandwiches"><img class="previewImg" src="./assets/images/smashvillePreview2.png" alt="Smashville burgers and sandwiches"></a>
+        <a class="previewImg" href="./assets/images/smashvillePreview3.png" data-lightbox="smashville" data-title="burgers and sandwiches"><img class="previewImg" src="./assets/images/smashvillePreview3.png" alt="Smashville burgers and sandwiches"></a> -->
+
+
+<!--         <img data-lightbox="smashville" data-title="burgers and sandwiches" src="./assets/images/smashvillePreview1.png" class="previewImg">
+        <img data-lightbox="smashville" data-title="burgers and sandwiches" src="./assets/images/smashvillePreview2.png" class="previewImg">
+        <img data-lightbox="smashville" data-title="burgers and sandwiches" src="./assets/images/smashvillePreview3.png" class="previewImg"> -->
 
       </div>
     </div>
