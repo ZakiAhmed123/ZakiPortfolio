@@ -340,6 +340,12 @@ flex: 1 0 0;
   flex-shrink: 0;
 }
 
+.aboutMeImg {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-radius: 32px 0px 32px 0px;
+  margin-bottom: 32px;
+}
+
   .outer {
     display: inline-flex;
     flex-direction: column;
