@@ -213,6 +213,13 @@ align-items: center;
 
 /*CONTENT START*/
 
+.outerFix {
+  display: flex;
+  justify-content: center;
+  padding: 104px 96px;
+  background: var(--beige);
+}
+
 body {
   padding-top:100px;
 }
@@ -243,7 +250,6 @@ body {
   background: #F1F1EF;
   display: flex;
   flex-direction: column-reverse;
-  padding: 48px 24px;
   align-items: center;
 }
 
@@ -425,7 +431,7 @@ hr {
   }
 
   .footer {
-    padding: 104px 96px;
+    max-width:1728px;
   }
 
   body {
@@ -436,12 +442,16 @@ hr {
     padding:104px 96px;
   }
 
+  .outerFix {
+    padding: 48px 24px;
+  }
+
   .introContainer {
-    padding:104px 96px;
     flex-direction: row;
     gap: 96px;
     align-items: flex-start;
     justify-content: flex-start;
+    max-width: 1728px;
   }
 
   .content2 {

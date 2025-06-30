@@ -5,21 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/7753bd8b73.js" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="./animations.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <!-- <script src="./js/jquery.drawsvg.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+ <!--    <script>
+    $(document).ready(function () {
+
+    var brushStroke = $('svg').drawsvg();
+    brushStroke.drawsvg('animate');
+    console.log("im here!")
+    })
+  </script> -->
 <link rel="manifest" href=".assets/images/site.webmanifest">
 
-  <title>Zaki Ahmed</title>
+  <title>Zaki Ahmed Product Design</title>
 </head>
 <body>
 
@@ -54,20 +58,26 @@
 
   </div>
 </nav>
-
-<div class="introContainer">
+<div class="outerFix">
+  <div class="introContainer">
   <img style="max-width: 355px; height:auto" src="https://ik.imagekit.io/s3rnd2unn/avatar_M3iX-5ibN.png?updatedAt=1750966918516">
   <div style="display:flex; flex-direction: column; gap: 36px;">
     <div class="introduction">
         Hi, I’m Zaki.
     </div>
-    <div class="bodyText">
-      I’m a Principal Product Designer, I’ve been building products for around 9 years. I love leading teams, developing junior designers and showing businesses the value of UX. Talk to me about product design, designer development, and design ops.
+    <div class="bodyText" style="position:relative">
+      <div class="wrapperStroke" style="position:absolute; top:-10px; right: 45%;">
+       
+
+      </div>
+      I’m a <b>Principal Product Designer</b>, I’ve been building products for around 9 years. I love leading teams, developing junior designers and showing businesses the value of UX. Talk to me about product design, designer development, and design ops.
     </div>
     <a class="resumeButton resumeButtonAdjustment" href="./resume.html" >Learn More</a>
   </div>
     
 </div>
+</div>
+
 
   <div class="content">
     <!-- INTRO -->
@@ -78,7 +88,7 @@
       <h1>UX Case Studies</h1>
       <div class="previewContainer">
         <a href="./optym.html">
-          <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/portfolio/optym_aACWh3D2jf.png?updatedAt=1693349208124">
+          <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/portfolio/optym/OptymBanner_qdUQYbhpL.png?updatedAt=1751314398434">
         </a>
         
         <div class="caseStudyDescription">
@@ -112,7 +122,7 @@
 
       <div class="previewContainer">
         <a href="./chatRAG.html">
-          <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/DocSenseBanner_AHzCbNiEZ.png?updatedAt=1750964549711">
+          <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/portfolio/ChatRAG_ozE8W-ck8.png?updatedAt=1751313999050">
         </a>
 
         <div class="caseStudyDescription">
@@ -129,7 +139,7 @@
 
       <div class="previewContainer">
         <a href="./beverage.html">
-          <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/portfolio/beverageBanner_Eo2I8ndYE.png?updatedAt=1693349351581">
+          <img class="imgSizer" src="https://ik.imagekit.io/s3rnd2unn/portfolio/Pepsi_r222yHT_d.png?updatedAt=1751313868283">
         </a>
 
         <div class="caseStudyDescription">
@@ -151,6 +161,8 @@
     </div>
   </div>
 <!-- footer -->
+  <div class="outerFix">
+    
     <div class="footer">
     <div class="footerHalf">
       <h2>Zaki Ahmed</h2>
@@ -185,6 +197,8 @@
       </a>
     </div>
   </div>
+  </div>
+
 
 </body>
 
