@@ -311,6 +311,19 @@ body {
   gap: 24px;
 }
 
+.previewContainer img {
+  border-radius : 32px 0px 32px 0px;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+      border:2px solid white;
+
+}
+
+.previewContainer img:hover {
+  border:2px solid #CDA47E;
+}
+
 .caseStudyDescription{
 display: flex;
 justify-content: space-between;
