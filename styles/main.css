@@ -83,7 +83,7 @@ b {
 
 h4 {
 color: var(--gray, #576574);
-font-family: Studio Feixen Sans TRIAL;
+font-family: "Studio Fiexen Semibold";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -182,7 +182,7 @@ align-items: center;
   gap: 10px;
   background: var(--black);
   color: var(--white, #FFF) !important;
-  font-family: Studio Feixen Sans TRIAL;
+  font-family: "Studio Fiexen Semibold";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -194,7 +194,7 @@ align-items: center;
 
 .resumeButton:hover {
   background-color: var(--gray);
-  font-family: Studio Feixen Sans TRIAL;
+  font-family: "Studio Fiexen Semibold";
   font-style: normal;
   font-weight: 400 !important;
 }
@@ -216,8 +216,9 @@ align-items: center;
 .outerFix {
   display: flex;
   justify-content: center;
-  padding: 104px 96px;
+  padding: 48px 24px;
   background: var(--beige);
+  z-index: 9998;
 }
 
 body {
@@ -443,7 +444,7 @@ hr {
   }
 
   .outerFix {
-    padding: 48px 24px;
+  padding: 104px 96px;
   }
 
   .introContainer {
